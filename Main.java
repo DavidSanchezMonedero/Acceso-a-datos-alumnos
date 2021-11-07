@@ -106,20 +106,7 @@ public class Main {
                     break;
             }
         }while(!s.equals("0"));
-        
-        
-        /*String nra = "data/alumno.txt";
-        List<Alumno>alumnos_al = MetodosHito.leerAlumno(nra);
-        
-        if(alumnos_al != null){
-            System.out.printf("%-6s %-10s %-10s %-12s %-5s\n","CODIGO","NOMBRE","PATERNO","NACIMIENTO","SEXO");
-            for (int i = 0; i<alumnos_al.size();i++){
-                Alumno a = alumnos_al.get(i);
-                System.out.printf("%-6s %-10s %-10s %-12s %-5s\n",a.getCodigoAlumno(),a.getNombre(),a.getPaterno(),a.getNacimiento(),a.getSexo());    
-            }
-        }else{
-            System.out.println("ERROR: LISTA VACIA");
-        }*/
+
         
     }
     
